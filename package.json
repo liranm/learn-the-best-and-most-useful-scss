@@ -1,0 +1,11 @@
+{
+  "name": "sassy-egghead",
+  "version": "0.0.1",
+  "description": "Learn the Best and Most Useful SCSS Egghead Course Repo",
+  "scripts": {
+    "start": "node-sass -o css scss"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
