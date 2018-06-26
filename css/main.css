@@ -1,26 +1,19 @@
-.spiderman {
-  padding: 1rem 2rem;
-  transition: transform .8s ease-in-out; }
-  .spiderman-container:hover .spiderman {
-    transform: rotate(180deg); }
-  .spiderman-container {
-    background-color: #dbbebe; }
-  .spiderman::before {
-    display: block;
-    content: url("../images/spiderman-icon.png"); }
-  .spiderman img {
-    transition: transform .8s ease-in-out; }
-    .spiderman img:hover {
-      transform: rotate(360deg); }
-  .spiderman .description {
-    color: darkred;
-    text-align: center;
-    margin-top: 1rem; }
-    .spiderman .description .header {
-      font-size: 2rem; }
-  .spiderman .description-link {
-    text-decoration: none; }
-    .spiderman .description-link::after {
-      content: url("../images/spiderman-ok.jpg");
-      display: inline-block;
-      vertical-align: middle; }
+.woman-of-the-marvel-universe {
+  content: "woman-of-the-marvel-universe"; }
+
+.woman-of-the-marvel-universe-text {
+  color: #989898; }
+
+.woman-of-the-marvel-universe-cape {
+  background-color: #8465D9; }
+
+img {
+  border: 1px dotted red; }
+
+.elektra {
+  color: blue;
+  border: 1px solid purple;
+  font-size: 36px; }
+
+.fancy {
+  color: red; }
